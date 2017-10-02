@@ -1,0 +1,20 @@
+/* ----------PAGE---------- */
+body .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/* ----------HEADER---------- */
+/* NAVBAR 1 */
+.navbar1 .nav {
+  text-transform: uppercase; }
+
+.navbar-right {
+  margin-right: 0px; }
+
+/* COUVERTURE */
+.img-fluid {
+  width: 100%; }
+
+/* NAVBAR 2 */
+.navbar2 li {
+  width: 33%; }
