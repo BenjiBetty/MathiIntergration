@@ -1,106 +1,102 @@
-$bleu:#0069B4;
-$bordeau:#7E142E;
-$jaune:#F99D1C;
+@import "variables";
+@import "headers";
 
-/* ----------PAGE---------- */
+/* ----------PAGE ACCUEIL---------- */
 
-body {
+.accueil {
     .container-fluid {
         padding-left: 0px;
         padding-right: 0px;
     }
+    @include headerBleu();
 }
 
 
-/* ----------HEADER---------- */
+/* -----------PAGE OSTERIA MATHI---------- */
 
-
-/* NAVBAR 1 */
-
-.navbar1 {
-    text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.55);
-    position: fixed;
-    right: 0;
-    width: 100%;
-    .navbar-nav {
-        float: right;
+.osteria {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    .bande {
-        border-bottom: solid 5px $bleu;
-        height: 55px;
-    }
-    .onglet1 {
-        a {
-            border-bottom: solid 5px $bleu;
-            color: $bleu;
-        }
-    }
-    .onglet2 {
-        a {
-            border-bottom: solid 5px $bordeau;
-            color: $bordeau;
-        }
-    }
-    .onglet3 {
-        a {
-            border-bottom: solid 5px $jaune;
-            color: $jaune;
-        }
-    }
-    .onglet4 {
-        a {
-            border-bottom: solid 5px $bleu;
-            color: $bleu;
-        }
-    }
-    .form-control {
-        border-radius: 100px;
-    }
-    .form-group {
-        vertical-align: center;
-        margin: 5px 10px 0px 10px;
-    }
-}
-
-.navbar-right {
-    margin-right: 0px;
+    @include headerBordeau();
 }
 
 
-/* COUVERTURE */
+/* -----------PAGE ESPACE MATHI---------- */
 
-.couverture {
-    position: relative;
-    z-index: -1;
-    .img-fluid {
-        width: 100%;
+.espace {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    .logo {
-        width: 20%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    @include headerJaune();
+}
+
+
+/* -----------PAGE BOUTIQUE---------- */
+
+.boutique {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @include headerBleu();
+}
+
+
+/* -----------PAGE EVENEMENTS---------- */
+
+.evenements {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @include headerBleu();
+    .navbar2 {
+        .onglet1 {
+            background-color: $bleu;
+            a {
+                color: $blanc;
+            }
+        }
     }
 }
 
 
-/* NAVBAR 2 */
+/* -----------PAGE VIDEOS---------- */
 
-.navbar2 {
-    text-transform: uppercase;
-    width: 100%;
-    li {
-        width: 33.33%;
-        text-align: center;
-        a {
-            border-bottom: solid 5px $bleu;
-            color: $bleu;
+.videos {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @include headerBleu();
+    .navbar2 {
+        .onglet2 {
+            background-color: $bleu;
+            a {
+                color: $blanc;
+            }
         }
     }
-    .onglet2 {
-        border-left: 3px solid $bleu;
-        border-right: 3px solid $bleu;
+}
+
+
+/* -----------PAGE CONTACT---------- */
+
+.contact {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    @include headerBleu();
+    .navbar2 {
+        .onglet3 {
+            background-color: $bleu;
+            a {
+                color: $blanc;
+            }
+        }
     }
 }
