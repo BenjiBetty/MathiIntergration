@@ -1,4 +1,5 @@
 /* COULEURS */
+/* TITRES */
 /* ----------HEADER BLEU---------- */
 /* NAVBAR 1 */
 /* COUVERTURE */
@@ -31,42 +32,80 @@
 /* ----------HEADER BORDEAU---------- */
 /* NAVBAR 1 */
 /* ----------HEADER JAUNE---------- */
+.bleu {
+  color: #0069B4; }
+
+.bordeau {
+  color: #7E142E; }
+
+.jaune {
+  color: #F99D1C; }
+
+.blanc {
+  color: #FFFFFF; }
+
 /* ----------PAGE ACCUEIL---------- */
-.accueil .container-fluid {
-  padding-left: 0px;
-  padding-right: 0px; }
-
-.accueil .navbar1 {
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
-  right: 0;
-  width: 100%; }
-  .accueil .navbar1 .navbar-nav {
-    float: right; }
-  .accueil .navbar1 .bande {
-    border-bottom: solid 5px #0069B4;
-    height: 55px; }
-  .accueil .navbar1 .onglet1 a {
-    border-bottom: solid 5px #0069B4;
-    color: #0069B4; }
-  .accueil .navbar1 .onglet2 a {
-    border-bottom: solid 5px #7E142E;
-    color: #7E142E; }
-  .accueil .navbar1 .onglet3 a {
-    border-bottom: solid 5px #F99D1C;
-    color: #F99D1C; }
-  .accueil .navbar1 .onglet4 a {
-    border-bottom: solid 5px #0069B4;
-    color: #0069B4; }
-  .accueil .navbar1 .form-control {
-    border-radius: 100px; }
-  .accueil .navbar1 .form-group {
-    vertical-align: center;
-    margin: 5px 10px 0px 10px; }
-
-.accueil .navbar-right {
-  margin-right: 0px; }
+.accueil {
+  /*=== PRESENTATION  ==========================++++++++++*/ }
+  .accueil .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .accueil h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    font-style: "Lato"; }
+  .accueil p {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-right: 15%;
+    font-style: "Lato"; }
+  .accueil #presentation p {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-right: 15%;
+    font-style: "Lato"; }
+  .accueil p {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-left: 15%;
+    margin-right: 15%; }
+  .accueil #presentation img {
+    padding-bottom: 60px;
+    margin: 0 auto !important; }
+  .accueil .navbar1 {
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.55);
+    right: 0;
+    width: 100%; }
+    .accueil .navbar1 .navbar-nav {
+      float: right; }
+    .accueil .navbar1 .bande {
+      border-bottom: solid 5px #0069B4;
+      height: 55px; }
+    .accueil .navbar1 .onglet1 a {
+      border-bottom: solid 5px #0069B4;
+      color: #0069B4; }
+    .accueil .navbar1 .onglet2 a {
+      border-bottom: solid 5px #7E142E;
+      color: #7E142E; }
+    .accueil .navbar1 .onglet3 a {
+      border-bottom: solid 5px #F99D1C;
+      color: #F99D1C; }
+    .accueil .navbar1 .onglet4 a {
+      border-bottom: solid 5px #0069B4;
+      color: #0069B4; }
+    .accueil .navbar1 .form-control {
+      border-radius: 100px; }
+    .accueil .navbar1 .form-group {
+      vertical-align: center;
+      margin: 5px 10px 0px 10px; }
+  .accueil .navbar-right {
+    margin-right: 0px; }
 
 /* -----------PAGE OSTERIA MATHI---------- */
 .osteria {
@@ -78,7 +117,6 @@
   .osteria .navbar1 {
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.55);
-    position: fixed;
     right: 0;
     width: 100%; }
     .osteria .navbar1 .navbar-nav {
@@ -128,6 +166,39 @@
     .osteria .navbar2 .onglet2 {
       border-left: 3px solid #7E142E;
       border-right: 3px solid #7E142E; }
+  .osteria h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    font-style: "Lato"; }
+  .osteria .left {
+    border-top: solid 2px #7E142E;
+    border-left: solid 2px #7E142E;
+    text-align: left; }
+  .osteria .right {
+    border-top: solid 2px #7E142E;
+    border-right: solid 2px #7E142E;
+    text-align: right; }
+  .osteria .row {
+    margin: 60px auto 0px auto;
+    width: 90%; }
+  .osteria section p {
+    font-size: 20px;
+    font-style: "Lato";
+    line-height: 2em; }
+  .osteria .presentation p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px; }
+  .osteria .black-border {
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 45px;
+    color: white;
+    text-transform: uppercase; }
 
 /* -----------PAGE ESPACE MATHI---------- */
 .espace {
@@ -139,7 +210,6 @@
   .espace .navbar1 {
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.55);
-    position: fixed;
     right: 0;
     width: 100%; }
     .espace .navbar1 .navbar-nav {
@@ -239,7 +309,6 @@ h5 {
 .boutique .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%; }
   .boutique .navbar1 .navbar-nav {
@@ -276,7 +345,6 @@ h5 {
 .evenements .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%; }
   .evenements .navbar1 .navbar-nav {
@@ -318,7 +386,6 @@ h5 {
 .videos .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%; }
   .videos .navbar1 .navbar-nav {
@@ -360,7 +427,6 @@ h5 {
 .contact .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%; }
   .contact .navbar1 .navbar-nav {

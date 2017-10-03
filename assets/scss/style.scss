@@ -1,5 +1,21 @@
-@import "variables";
+@import "variables.scss";
 @import "headers";
+.bleu {
+    color: $bleu;
+}
+
+.bordeau {
+    color: $bordeau;
+}
+
+.jaune {
+    color: $jaune;
+}
+
+.blanc {
+    color: $blanc;
+}
+
 
 /* ----------PAGE ACCUEIL---------- */
 
@@ -7,6 +23,34 @@
     .container-fluid {
         padding-left: 0px;
         padding-right: 0px;
+    }
+    /*=== PRESENTATION  ==========================++++++++++*/
+    @include titres();
+    p {
+        text-align: center;
+        font-size: 16px;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-right: 15%;
+        font-style: "Lato";
+    }
+    #presentation p {
+        text-align: center;
+        font-size: 16px;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-right: 15%;
+        font-style: "Lato";
+    }
+    p {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #presentation img {
+        padding-bottom: 60px;
+        margin: 0 auto !important;
     }
     @include headerBleu();
 }
@@ -20,6 +64,45 @@
         padding-right: 0px;
     }
     @include headerBordeau();
+    @include titres();
+    .left {
+        border-top: solid 2px $bordeau;
+        border-left: solid 2px $bordeau;
+        text-align: left;
+    }
+    .right {
+        border-top: solid 2px $bordeau;
+        border-right: solid 2px $bordeau;
+        text-align: right;
+    }
+    .row {
+        margin: 60px auto 0px auto;
+        width: 90%;
+    }
+    section {
+        p {
+            font-size: 20px;
+            font-style: "Lato";
+            line-height: 2em;
+        }
+    }
+    .presentation {
+        p {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-top: 40px;
+        }
+    }
+    .black-border {
+        width: calc(100% - 30px);
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 45px;
+        color: white;
+        text-transform: uppercase;
+    }
 }
 
 
@@ -149,4 +232,24 @@ h5 {
             }
         }
     }
+}
+
+
+/* -----------PAGE PARTENAIRES---------- */
+
+.bloc-partenaires {
+    margin-top: 90px;
+}
+
+.logo-partenaires {
+    max-height: 130px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* -----------PAGE VIDEOS---------- */
+
+.bloc-videos {
+    margin-top: 80px !important;
 }
