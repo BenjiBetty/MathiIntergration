@@ -4,3 +4,14 @@ $blanc: #FFFFFF;
 $bleu:#0069B4;
 $bordeau:#7E142E;
 $jaune:#F99D1C;
+
+/* TITRES */
+
+@mixin titres() {
+    h1 {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 35px;
+        font-style: "Lato";
+    }
+}

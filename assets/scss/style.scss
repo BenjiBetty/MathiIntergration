@@ -1,4 +1,4 @@
-@import "variables";
+@import "variables.scss";
 @import "headers";
 .bleu {
     color: $bleu;
@@ -25,13 +25,7 @@
         padding-right: 0px;
     }
     /*=== PRESENTATION  ==========================++++++++++*/
-    #presentation h1 {
-        color: $bleu;
-        margin-top: 60px;
-        text-align: center;
-        font-size: 35px;
-        font-style: "Lato";
-    }
+    @include titres();
     p {
         text-align: center;
         font-size: 16px;
@@ -70,6 +64,45 @@
         padding-right: 0px;
     }
     @include headerBordeau();
+    @include titres();
+    .left {
+        border-top: solid 2px $bordeau;
+        border-left: solid 2px $bordeau;
+        text-align: left;
+    }
+    .right {
+        border-top: solid 2px $bordeau;
+        border-right: solid 2px $bordeau;
+        text-align: right;
+    }
+    .row {
+        margin: 60px auto 0px auto;
+        width: 90%;
+    }
+    section {
+        p {
+            font-size: 20px;
+            font-style: "Lato";
+            line-height: 2em;
+        }
+    }
+    .presentation {
+        p {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-top: 40px;
+        }
+    }
+    .black-border {
+        width: calc(100% - 30px);
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 45px;
+        color: white;
+        text-transform: uppercase;
+    }
 }
 
 
