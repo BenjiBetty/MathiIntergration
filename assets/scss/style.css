@@ -597,6 +597,8 @@
 /* -----------PAGE PARTENAIRES---------- */
 .logo-partenaires {
   max-height: 130px;
+  top: 50%;
+  transform: translateY(-50%);
 }
  
 
