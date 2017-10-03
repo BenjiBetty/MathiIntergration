@@ -593,6 +593,11 @@
 .contact .navbar2 .onglet3 a {
   color: #FFFFFF;
 }
+
+/* -----------PAGE PARTENAIRES---------- */
+.logo-partenaires {
+  max-height: 130px;
+}
  
 
  /*# sourceMappingURL= style.css.map */
