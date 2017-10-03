@@ -102,6 +102,13 @@
         height: 45px;
         color: white;
         text-transform: uppercase;
+        .text-left {
+            padding-left: 10px;
+        }
+        .text-right {
+            text-align: right;
+            padding-right: 10px;
+        }
     }
 }
 

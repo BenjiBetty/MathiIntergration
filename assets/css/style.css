@@ -99,6 +99,8 @@
     .accueil .navbar1 .onglet4 a {
       border-bottom: solid 5px #0069B4;
       color: #0069B4; }
+    .accueil .navbar1 .contact .navbar2 .onglet3 a:hover {
+      color: red; }
     .accueil .navbar1 .form-control {
       border-radius: 100px; }
     .accueil .navbar1 .form-group {
@@ -199,6 +201,11 @@
     height: 45px;
     color: white;
     text-transform: uppercase; }
+    .osteria .black-border .text-left {
+      padding-left: 10px; }
+    .osteria .black-border .text-right {
+      text-align: right;
+      padding-right: 10px; }
 
 /* -----------PAGE ESPACE MATHI---------- */
 .espace {
@@ -328,6 +335,8 @@ h5 {
   .boutique .navbar1 .onglet4 a {
     border-bottom: solid 5px #0069B4;
     color: #0069B4; }
+  .boutique .navbar1 .contact .navbar2 .onglet3 a:hover {
+    color: red; }
   .boutique .navbar1 .form-control {
     border-radius: 100px; }
   .boutique .navbar1 .form-group {
@@ -364,6 +373,8 @@ h5 {
   .evenements .navbar1 .onglet4 a {
     border-bottom: solid 5px #0069B4;
     color: #0069B4; }
+  .evenements .navbar1 .contact .navbar2 .onglet3 a:hover {
+    color: red; }
   .evenements .navbar1 .form-control {
     border-radius: 100px; }
   .evenements .navbar1 .form-group {
@@ -405,6 +416,8 @@ h5 {
   .videos .navbar1 .onglet4 a {
     border-bottom: solid 5px #0069B4;
     color: #0069B4; }
+  .videos .navbar1 .contact .navbar2 .onglet3 a:hover {
+    color: red; }
   .videos .navbar1 .form-control {
     border-radius: 100px; }
   .videos .navbar1 .form-group {
@@ -446,6 +459,8 @@ h5 {
   .contact .navbar1 .onglet4 a {
     border-bottom: solid 5px #0069B4;
     color: #0069B4; }
+  .contact .navbar1 .contact .navbar2 .onglet3 a:hover {
+    color: red; }
   .contact .navbar1 .form-control {
     border-radius: 100px; }
   .contact .navbar1 .form-group {
@@ -459,3 +474,16 @@ h5 {
   background-color: #0069B4; }
   .contact .navbar2 .onglet3 a {
     color: #FFFFFF; }
+
+/* -----------PAGE PARTENAIRES---------- */
+.bloc-partenaires {
+  margin-top: 90px; }
+
+.logo-partenaires {
+  max-height: 130px;
+  top: 50%;
+  transform: translateY(-50%); }
+
+/* -----------PAGE VIDEOS---------- */
+.bloc-videos {
+  margin-top: 80px !important; }
