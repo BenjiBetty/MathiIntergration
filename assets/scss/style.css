@@ -43,6 +43,22 @@
 /* ----------HEADER BORDEAU---------- */
 /* NAVBAR 1 */
 /* ----------HEADER JAUNE---------- */
+.bleu {
+  color: #0069B4;
+}
+
+.bordeau {
+  color: #7E142E;
+}
+
+.jaune {
+  color: #F99D1C;
+}
+
+.blanc {
+  color: #FFFFFF;
+}
+
 /* ----------PAGE ACCUEIL---------- */
 .accueil {
   /*=== PRESENTATION  ==========================++++++++++*/
@@ -94,7 +110,6 @@
 .accueil .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -155,7 +170,6 @@
 .osteria .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -253,7 +267,6 @@
 .espace .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -346,7 +359,6 @@
 .boutique .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -402,7 +414,6 @@
 .evenements .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -466,7 +477,6 @@
 .videos .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
@@ -530,7 +540,6 @@
 .contact .navbar1 {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.55);
-  position: fixed;
   right: 0;
   width: 100%;
 }
