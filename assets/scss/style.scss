@@ -425,3 +425,28 @@ form {
     margin-right: -100%;
     margin-left: 3em;
 }
+
+.purple {
+    float: left;
+    color: purple;
+    border-left: 2px solid purple;
+}
+
+.blue {
+    float: left;
+    color: #0069B4;
+    border-left: 2px solid blue;
+}
+
+.orange {
+    float: left;
+    color: orange;
+    border-left: 2px solid orange;
+}
+
+.month {
+    margin-left: 10%;
+    margin-top: 25%;
+    float: left;
+    position: absolute;
+}
