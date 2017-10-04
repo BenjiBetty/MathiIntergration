@@ -123,58 +123,98 @@
         padding-right: 0px;
     }
     @include headerJaune();
-    h1 {
-        margin-top: 7%;
-        margin-bottom: 7%;
-        color: orange;
-    }
+    @include titres();
 }
 
-.collabo {
-    float: right;
-}
-
-.lorem {
-    margin-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-h5 {
-    color: white;
-}
-
-.lorem2 {
-    display: inline;
-    text-align: right;
-}
-
-.lorem3 {
-    display: inline;
+.left {
+    border-top: solid 2px $jaune;
+    border-left: solid 2px $jaune;
     text-align: left;
 }
 
-.col-lg-3 col-md-3 col-sm-3 col-xs-12 {
-    position: relative;
+.right {
+    border-top: solid 2px $jaune;
+    border-right: solid 2px $jaune;
+    text-align: right;
 }
 
-.position {
-    position: relative;
+.row {
+    margin: 60px auto 0px auto;
+    width: 90%;
 }
 
-.barre {
+section {
+    p {
+        font-size: 16px;
+        font-style: "Lato";
+        line-height: 1.8em;
+        padding-top: 10px;
+    }
+}
+
+.presentation {
+    p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+.black-border {
     width: calc(100% - 30px);
     position: absolute;
     bottom: 0px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     height: 45px;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.7;
+    color: white;
+    text-transform: uppercase;
+    .text-left {
+        padding-left: 10px;
+    }
+    .text-right {
+        text-align: right;
+        padding-right: 10px;
+    }
 }
 
+// .collabo {
+//     float: right;
+// }
+// .lorem {
+//     margin-bottom: 10%;
+//     padding-left: 5%;
+//     padding-right: 5%;
+// }
+// h5 {
+//     color: white;
+// }
+// .lorem2 {
+//     display: inline;
+//     text-align: right;
+// }
+// .lorem3 {
+//     display: inline;
+//     text-align: left;
+// }
+// .col-lg-3 col-md-3 col-sm-3 col-xs-12 {
+//     position: relative;
+// }
+// .position {
+//     position: relative;
+// }
+// .barre {
+//     width: calc(100% - 30px);
+//     position: absolute;
+//     bottom: 0px;
+//     background-color: black;
+//     height: 45px;
+//     opacity: 1;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     opacity: 0.7;
+// }
 
 /* -----------PAGE BOUTIQUE---------- */
 
