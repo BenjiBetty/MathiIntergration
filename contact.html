@@ -43,39 +43,67 @@
     </div>
 
     <center>
-        <div class="contact">
-            <h1>Contact</h1>
+        <div class="container">
+
+            <h1 class="text-center bleu">Contact</h1>
+            <div class="row">
+                <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 col-lg-push-1 col-md-push-1 ">
+                    <div class="col-lg-12 ">
+                        <form class="formulaire-contact">
+                            <div class="form-group">
+                                <label for="Name">Nom:</label>
+                                <input type="Name" class="form-control" id="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="firstname">Prénom:</label>
+                                <input type="firstname" class="form-control" id="firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Message:</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+
+                            <center>
+                                <button type="submit" class="btn btn-default">Envoyer</button>
+                            </center>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6  col-md-4 col-lg-4 col-lg-push-3 col-md-push-2 ">
+                    <div class="contact-info">
+                        <p class="contact_numéro">07 82 61 90 08 </p>
+                        <p class="contact_email"> contact@assomathi.com</p>
+                        <p class="contact_adresse">
+                            Association Mathi<br> 6 cours des alliés<br> 3500 Rennes
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </center>
 
-    <div class="row col-md-6">
-        <form>
-            <div class="form-group">
-                <label for="Name">Nom:</label>
-                <input type="Name" class="form-control" id="Name">
-            </div>
-            <div class="form-group">
-                <label for="firstname">Prénom:</label>
-                <input type="firstname" class="form-control" id="firstname">
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-                <label for="comment">Message:</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+        <div class="container">
+            <div class="row">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.2723881199213!2d-1.6783786843521336!3d48.10498097922093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfca5bb6d4e7%3A0x24df872b780d118c!2s6+Cours+des+Alli%C3%A9s%2C+35000+Rennes!5e0!3m2!1sfr!2sfr!4v1507104500222"
+                        width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+
             </div>
 
-            <center>
-                <button type="submit" class="btn btn-default">Envoyer</button>
-            </center>
-        </form>
-    </div>
+        </div>
 
-    <footer>
-        <div class="svg-container">
-            <svg version="1.1" viewBox="50 -180 900 560" preserveAspectRatio="xMinYMin meet" class="svg-content">
+        <footer>
+            <div class="svg-container">
+                <svg version="1.1" viewBox="50 -180 900 560" preserveAspectRatio="xMinYMin meet" class="svg-content">
         <g>
             <path style="fill:#0069B4;" d="M937.373,166.873c3.783,0,7.566,0,11.349,0l0.611,220.325L20.853,387l-0.147-142.429
             c1.775,0.64,3.531,1.338,5.326,1.912c65.327,20.872,132.498,31.095,200.83,33.975c23.08,0.972,46.275,1.166,69.338,0.057
@@ -83,8 +111,8 @@
             c50.37-10.507,101.113-18.587,152.384-22.856C879.934,169.613,935.087,167.161,937.373,166.873z"/>
         </g>
         </svg>
-        </div>
-    </footer>
+            </div>
+        </footer>
 
 </body>
 
