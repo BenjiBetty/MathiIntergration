@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,cAAc",
+    "mappings": "AAAA,cAAc;AAOd,YAAY",
     "sources": [
         "variables.scss"
     ],
