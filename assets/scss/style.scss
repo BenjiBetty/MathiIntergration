@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "headers";
+@import "footer";
 .bleu {
     color: $bleu;
 }
@@ -24,8 +25,9 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    /*=== PRESENTATION  ==========================++++++++++*/
+    @include headerBleu();
     @include titres();
+    /*=== PRESENTATION  ==========================++++++++++*/
     p {
         text-align: center;
         font-size: 16px;
@@ -52,7 +54,6 @@
         padding-bottom: 60px;
         margin: 0 auto !important;
     }
-    @include headerBleu();
 }
 
 
@@ -81,7 +82,7 @@
     }
     section {
         p {
-            font-size: 20px;
+            font-size: 18px;
             font-style: "Lato";
             line-height: 2em;
         }
@@ -182,6 +183,11 @@ h5 {
         padding-right: 0px;
     }
     @include headerBleu();
+    .logo {
+        font-size: 5em;
+        width: 80%;
+        color: $bleu;
+    }
 }
 
 

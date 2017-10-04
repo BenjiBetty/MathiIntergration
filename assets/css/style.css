@@ -18,7 +18,9 @@
 /* NAVBAR 2 */
 .navbar2 {
   text-transform: uppercase;
-  width: 100%; }
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px; }
   .navbar2 li {
     width: 33.33%;
     text-align: center; }
@@ -50,35 +52,10 @@
   .accueil .container-fluid {
     padding-left: 0px;
     padding-right: 0px; }
-  .accueil h1 {
-    margin-top: 60px;
-    text-align: center;
-    font-size: 35px;
-    font-style: "Lato"; }
-  .accueil p {
-    text-align: center;
-    font-size: 16px;
-    margin-left: 15%;
-    margin-top: 10px;
-    margin-right: 15%;
-    font-style: "Lato"; }
-  .accueil #presentation p {
-    text-align: center;
-    font-size: 16px;
-    margin-left: 15%;
-    margin-top: 10px;
-    margin-right: 15%;
-    font-style: "Lato"; }
-  .accueil p {
-    padding-top: 100px;
-    padding-bottom: 60px;
-    margin-left: 15%;
-    margin-right: 15%; }
-  .accueil #presentation img {
-    padding-bottom: 60px;
-    margin: 0 auto !important; }
   .accueil .navbar1 {
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
     background-color: rgba(255, 255, 255, 0.55);
     right: 0;
     width: 100%; }
@@ -108,6 +85,33 @@
       margin: 5px 10px 0px 10px; }
   .accueil .navbar-right {
     margin-right: 0px; }
+  .accueil h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    font-style: "Lato"; }
+  .accueil p {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-right: 15%;
+    font-style: "Lato"; }
+  .accueil #presentation p {
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-right: 15%;
+    font-style: "Lato"; }
+  .accueil p {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-left: 15%;
+    margin-right: 15%; }
+  .accueil #presentation img {
+    padding-bottom: 60px;
+    margin: 0 auto !important; }
 
 /* -----------PAGE OSTERIA MATHI---------- */
 .osteria {
@@ -118,6 +122,8 @@
     padding-right: 0px; }
   .osteria .navbar1 {
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
     background-color: rgba(255, 255, 255, 0.55);
     right: 0;
     width: 100%; }
@@ -158,7 +164,9 @@
       transform: translate(-50%, -50%); }
   .osteria .navbar2 {
     text-transform: uppercase;
-    width: 100%; }
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px; }
     .osteria .navbar2 li {
       width: 33.33%;
       text-align: center; }
@@ -185,7 +193,7 @@
     margin: 60px auto 0px auto;
     width: 90%; }
   .osteria section p {
-    font-size: 20px;
+    font-size: 18px;
     font-style: "Lato";
     line-height: 2em; }
   .osteria .presentation p {
@@ -216,6 +224,8 @@
     padding-right: 0px; }
   .espace .navbar1 {
     text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
     background-color: rgba(255, 255, 255, 0.55);
     right: 0;
     width: 100%; }
@@ -256,7 +266,9 @@
       transform: translate(-50%, -50%); }
   .espace .navbar2 {
     text-transform: uppercase;
-    width: 100%; }
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px; }
     .espace .navbar2 li {
       width: 33.33%;
       text-align: center; }
@@ -315,6 +327,8 @@ h5 {
 
 .boutique .navbar1 {
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
   background-color: rgba(255, 255, 255, 0.55);
   right: 0;
   width: 100%; }
@@ -346,6 +360,11 @@ h5 {
 .boutique .navbar-right {
   margin-right: 0px; }
 
+.boutique .logo {
+  font-size: 5em;
+  width: 80%;
+  color: #0069B4; }
+
 /* -----------PAGE EVENEMENTS---------- */
 .evenements .container-fluid {
   padding-left: 0px;
@@ -353,6 +372,8 @@ h5 {
 
 .evenements .navbar1 {
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
   background-color: rgba(255, 255, 255, 0.55);
   right: 0;
   width: 100%; }
@@ -396,6 +417,8 @@ h5 {
 
 .videos .navbar1 {
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
   background-color: rgba(255, 255, 255, 0.55);
   right: 0;
   width: 100%; }
@@ -439,6 +462,8 @@ h5 {
 
 .contact .navbar1 {
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
   background-color: rgba(255, 255, 255, 0.55);
   right: 0;
   width: 100%; }
@@ -616,24 +641,3 @@ form {
 .agenda_photos h1::after {
   margin-right: -100%;
   margin-left: 3em; }
-
-.purple {
-  float: left;
-  color: purple;
-  border-left: 2px solid purple; }
-
-.blue {
-  float: left;
-  color: #0069B4;
-  border-left: 2px solid blue; }
-
-.orange {
-  float: left;
-  color: orange;
-  border-left: 2px solid orange; }
-
-.month {
-  margin-left: 10%;
-  margin-top: 25%;
-  float: left;
-  position: absolute; }
