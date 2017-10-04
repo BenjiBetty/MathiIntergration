@@ -500,6 +500,21 @@ h5 {
   .contact .navbar2 .onglet3 a {
     color: #FFFFFF; }
 
+.contact .form-control {
+  border: 1px solid #0069B4; }
+
+.contact .contact-info {
+  text-align: center;
+  margin-top: 50px; }
+
+.contact .contact-info p {
+  font-size: 28px;
+  color: #0069B4; }
+
+.contact .maps {
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
 /* -----------PAGE PARTENAIRES---------- */
 .bloc-partenaires {
   margin-top: 90px; }
