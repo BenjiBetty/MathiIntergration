@@ -3,7 +3,7 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 17px;
-        background-color: rgba(255, 255, 255, 0.55);
+        background-color: rgba(255, 255, 255, 0.85);
         right: 0;
         width: 100%;
         .navbar-nav {
@@ -79,6 +79,7 @@
 
 /* NAVBAR 1 */
 
+<<<<<<< HEAD
 @mixin headerBleu() {
     @include navbar1();
     .bande {
@@ -90,6 +91,24 @@
     }
     .navbar2 {
         li {
+=======
+@mixin headerBordeau() {
+    .navbar1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: rgba(255, 255, 255, 0.85);
+        right: 0;
+        width: 100%;
+        .navbar-nav {
+            float: right;
+        }
+        .bande {
+            border-bottom: solid 5px $bordeau;
+            height: 55px;
+        }
+        .onglet1 {
+>>>>>>> master
             a {
                 border-bottom: solid 5px $bleu;
                 color: $bleu;
@@ -145,10 +164,58 @@
 /* ----------HEADER JAUNE---------- */
 
 @mixin headerJaune() {
+<<<<<<< HEAD
     @include navbar1();
     .bande {
         border-bottom: solid 5px $jaune;
         height: 55px;
+=======
+    .navbar1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 17px;
+        background-color: rgba(255, 255, 255, 0.85);
+        right: 0;
+        width: 100%;
+        .navbar-nav {
+            float: right;
+        }
+        .bande {
+            border-bottom: solid 5px $jaune;
+            height: 55px;
+        }
+        .onglet1 {
+            a {
+                border-bottom: solid 5px $bleu;
+                color: $bleu;
+            }
+        }
+        .onglet2 {
+            a {
+                border-bottom: solid 5px $bordeau;
+                color: $bordeau;
+            }
+        }
+        .onglet3 {
+            a {
+                border-bottom: solid 5px $jaune;
+                color: $jaune;
+            }
+        }
+        .onglet4 {
+            a {
+                border-bottom: solid 5px $bleu;
+                color: $bleu;
+            }
+        }
+        .form-control {
+            border-radius: 100px;
+        }
+        .form-group {
+            vertical-align: center;
+            margin: 5px 10px 0px 10px;
+        }
+>>>>>>> master
     }
     .navbar-right {
         margin-right: 0px;
