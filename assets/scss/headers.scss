@@ -1,123 +1,13 @@
-/* ----------HEADER BLEU---------- */
-
-
-/* NAVBAR 1 */
-
-@mixin headerBleu() {
+@mixin navbar1() {
     .navbar1 {
         text-transform: uppercase;
         font-weight: bold;
         font-size: 17px;
-        background-color: rgba(255, 255, 255, 0.55);
+        background-color: rgba(255, 255, 255, 0.85);
         right: 0;
         width: 100%;
         .navbar-nav {
             float: right;
-        }
-        .bande {
-            border-bottom: solid 5px $bleu;
-            height: 55px;
-        }
-        .onglet1 {
-            a {
-                border-bottom: solid 5px $bleu;
-                color: $bleu;
-            }
-        }
-        .onglet2 {
-            a {
-                border-bottom: solid 5px $bordeau;
-                color: $bordeau;
-            }
-        }
-        .onglet3 {
-            a {
-                border-bottom: solid 5px $jaune;
-                color: $jaune;
-            }
-        }
-        .onglet4 {
-            a {
-                border-bottom: solid 5px $bleu;
-                color: $bleu;
-            }
-        }
-        .contact .navbar2 .onglet3 a:hover {
-            color: red;
-        }
-        .form-control {
-            border-radius: 100px;
-        }
-        .form-group {
-            vertical-align: center;
-            margin: 5px 10px 0px 10px;
-        }
-    }
-    .navbar-right {
-        margin-right: 0px;
-    }
-}
-
-
-/* COUVERTURE */
-
-.couverture {
-    position: relative;
-    z-index: -1;
-    .img-fluid {
-        width: 100%;
-    }
-    .logo {
-        width: 20%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-
-/* NAVBAR 2 */
-
-.navbar2 {
-    text-transform: uppercase;
-    width: 100%;
-    font-weight: bold;
-    font-size: 18px;
-    li {
-        width: 33.33%;
-        text-align: center;
-        a {
-            border-bottom: solid 5px $bleu;
-            color: $bleu;
-        }
-    }
-    .onglet2 {
-        border-left: 3px solid $bleu;
-        border-right: 3px solid $bleu;
-    }
-}
-
-
-/* ----------HEADER BORDEAU---------- */
-
-
-/* NAVBAR 1 */
-
-@mixin headerBordeau() {
-    .navbar1 {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 17px;
-        background-color: rgba(255, 255, 255, 0.55);
-        right: 0;
-        width: 100%;
-        .navbar-nav {
-            float: right;
-        }
-        .bande {
-            border-bottom: solid 5px $bordeau;
-            height: 55px;
         }
         .onglet1 {
             a {
@@ -151,10 +41,9 @@
             margin: 5px 10px 0px 10px;
         }
     }
-    .navbar-right {
-        margin-right: 0px;
-    }
-    /* COUVERTURE */
+}
+
+@mixin couverture() {
     .couverture {
         position: relative;
         z-index: -1;
@@ -169,7 +58,9 @@
             transform: translate(-50%, -50%);
         }
     }
-    /* NAVBAR 2 */
+}
+
+@mixin navbar2() {
     .navbar2 {
         text-transform: uppercase;
         width: 100%;
@@ -178,6 +69,61 @@
         li {
             width: 33.33%;
             text-align: center;
+        }
+    }
+}
+
+
+/* ----------HEADER BLEU---------- */
+
+
+/* NAVBAR 1 */
+
+@mixin headerBleu() {
+    @include navbar1();
+    .bande {
+        border-bottom: solid 5px $bleu;
+        height: 55px;
+    }
+    .navbar-right {
+        margin-right: 0px;
+    }
+    .navbar2 {
+        li {
+            a {
+                border-bottom: solid 5px $bleu;
+                color: $bleu;
+            }
+        }
+        .onglet2 {
+            border-left: 3px solid $bleu;
+            border-right: 3px solid $bleu;
+        }
+    }
+}
+
+@include couverture();
+
+/* NAVBAR 2 */
+
+@include navbar2();
+
+/* ----------HEADER BORDEAU---------- */
+
+
+/* NAVBAR 1 */
+
+@mixin headerBordeau() {
+    @include navbar1();
+    .bande {
+        border-bottom: solid 5px $bordeau;
+        height: 55px;
+    }
+    .navbar-right {
+        margin-right: 0px;
+    }
+    .navbar2 {
+        li {
             a {
                 border-bottom: solid 5px $bordeau;
                 color: $bordeau;
@@ -190,83 +136,25 @@
     }
 }
 
+@include couverture();
+
+/* NAVBAR 2 */
+
+@include navbar2();
 
 /* ----------HEADER JAUNE---------- */
 
 @mixin headerJaune() {
-    .navbar1 {
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 17px;
-        background-color: rgba(255, 255, 255, 0.55);
-        right: 0;
-        width: 100%;
-        .navbar-nav {
-            float: right;
-        }
-        .bande {
-            border-bottom: solid 5px $jaune;
-            height: 55px;
-        }
-        .onglet1 {
-            a {
-                border-bottom: solid 5px $bleu;
-                color: $bleu;
-            }
-        }
-        .onglet2 {
-            a {
-                border-bottom: solid 5px $bordeau;
-                color: $bordeau;
-            }
-        }
-        .onglet3 {
-            a {
-                border-bottom: solid 5px $jaune;
-                color: $jaune;
-            }
-        }
-        .onglet4 {
-            a {
-                border-bottom: solid 5px $bleu;
-                color: $bleu;
-            }
-        }
-        .form-control {
-            border-radius: 100px;
-        }
-        .form-group {
-            vertical-align: center;
-            margin: 5px 10px 0px 10px;
-        }
+    @include navbar1();
+    .bande {
+        border-bottom: solid 5px $jaune;
+        height: 55px;
     }
     .navbar-right {
         margin-right: 0px;
     }
-    /* COUVERTURE */
-    .couverture {
-        position: relative;
-        z-index: -1;
-        .img-fluid {
-            width: 100%;
-        }
-        .logo {
-            width: 30%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
-    /* NAVBAR 2 */
     .navbar2 {
-        text-transform: uppercase;
-        width: 100%;
-        font-weight: bold;
-        font-size: 18px;
         li {
-            width: 33.33%;
-            text-align: center;
             a {
                 border-bottom: solid 5px $jaune;
                 color: $jaune;
@@ -278,3 +166,9 @@
         }
     }
 }
+
+@include couverture();
+
+/* NAVBAR 2 */
+
+@include navbar2();
