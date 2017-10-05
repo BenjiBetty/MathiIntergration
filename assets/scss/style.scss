@@ -27,6 +27,7 @@
     }
     @include headerBleu();
     @include titres();
+    @include footer();
     /*=== PRESENTATION  ==========================++++++++++*/
     p {
         text-align: center;

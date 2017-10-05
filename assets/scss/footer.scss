@@ -1,3 +1,19 @@
 @mixin footer() {
-    footer {}
+    footer {
+        position: relative;
+    }
+    .text-footer {
+        z-index: 1;
+        position: absolute;
+        left: 5%;
+        bottom: 0.001%;
+    }
+    p {
+        color: White;
+    }
+    .nous-contacter {
+        color: red;
+        position: absolute;
+        left: 20%;
+    }
 }
