@@ -154,6 +154,8 @@
   .accueil #presentation img {
     padding-bottom: 60px;
     margin: 0 auto !important; }
+  .accueil .agenda-accueil {
+    margin: auto; }
 
 /* -----------PAGE OSTERIA MATHI---------- */
 .osteria .container-fluid {
